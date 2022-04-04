@@ -38,7 +38,7 @@ document.addEventListener("keypress", (e) => {
         audioHihhat.src = "sounds/hihat.wav"
         hihhat.style.backgroundColor = "red"
     } else if (e.key === "d" || e.key === "D") {
-        audioBass.src = "drumKit/sounds/boom.wav"
+        audioBass.src = "sounds/boom.wav"
         bass.style.backgroundColor = "red"
     } else if (e.key === "f" || e.key === "F") {
         audioKick.src = "sounds/kick.wav"
