@@ -32,69 +32,69 @@ document.addEventListener("keyup", () => {
 
 document.addEventListener("keypress", (e) => {
     if (e.key === "a" || e.key === "A") {
-        audioClap.src = "/sounds/clap.wav"
+        audioClap.src = "sounds/clap.wav"
         clap.style.backgroundColor = "red"
     } else if (e.key === "s" || e.key === "S") {
-        audioHihhat.src = "/sounds/hihat.wav"
+        audioHihhat.src = "sounds/hihat.wav"
         hihhat.style.backgroundColor = "red"
     } else if (e.key === "d" || e.key === "D") {
-        audioBass.src = "/sounds/boom.wav"
+        audioBass.src = "sounds/boom.wav"
         bass.style.backgroundColor = "red"
     } else if (e.key === "f" || e.key === "F") {
-        audioKick.src = "/sounds/kick.wav"
+        audioKick.src = "sounds/kick.wav"
         kick.style.backgroundColor = "red"
     } else if (e.key === "g" || e.key === "G") {
-        audioOpen.src = "/sounds/openhat.wav"
+        audioOpen.src = "sounds/openhat.wav"
         openh.style.backgroundColor = "red"
     } else if (e.key === "h" || e.key === "H") {
-        audioRide.src = "/sounds/ride.wav"
+        audioRide.src = "sounds/ride.wav"
         ride.style.backgroundColor = "red"
     } else if (e.key === "j" || e.key === "J") {
-        audioSnare.src = "/sounds/snare.wav"
+        audioSnare.src = "sounds/snare.wav"
         snare.style.backgroundColor = "red"
     } else if (e.key === "k" || e.key === "K") {
-        audioTink.src = "/sounds/tink.wav"
+        audioTink.src = "sounds/tink.wav"
         tink.style.backgroundColor = "red"
     } else if (e.key === "l" || e.key === "L") {
-        audioTom.src = "/sounds/tom.wav"
+        audioTom.src = "sounds/tom.wav"
         tom.style.backgroundColor = "red"
     } 
 })
 
 clap.addEventListener("click", () => {
-    audioClap.src = "/sounds/clap.wav"
+    audioClap.src = "sounds/clap.wav"
 })
 
 hihhat.addEventListener("click", () => {
-    audioHihhat.src = "/sounds/hihat.wav"
+    audioHihhat.src = "sounds/hihat.wav"
 })
 
 bass.addEventListener("click", () => {
-    audioBass.src = "/sounds/boom.wav"
+    audioBass.src = "sounds/boom.wav"
 })
 
 kick.addEventListener("click", () => {
-    audioKick.src = "/sounds/kick.wav"
+    audioKick.src = "sounds/kick.wav"
 })
 
 openh.addEventListener("click", () => {
-    audioOpen.src = "/sounds/openhat.wav"
+    audioOpen.src = "sounds/openhat.wav"
 })
 
 ride.addEventListener("click", () => {
-    audioRide.src = "/sounds/ride.wav"
+    audioRide.src = "sounds/ride.wav"
 })
 
 snare.addEventListener("click", () => {
-    audioSnare.src = "/sounds/snare.wav"
+    audioSnare.src = "sounds/snare.wav"
 })
 
 tink.addEventListener("click", () => {
-    audioTink.src = "/sounds/tink.wav"
+    audioTink.src = "sounds/tink.wav"
 })
 
 tom.addEventListener("click", () => {
-    audioTom.src = "/sounds/tom.wav"
+    audioTom.src = "sounds/tom.wav"
 })
 
 
